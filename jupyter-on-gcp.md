@@ -11,7 +11,7 @@ GitHub: jsarro13
   * Where does it comes from?
   * What it is used for?
   * Who can view/access this object? The sensitivity of the contents should be stated in the case of medium or high risk data.
-* Limit the use of object paths to those that are contained in the repo. All other objects should be accessed through gsutil.
+* Limit the use of object paths to those that are contained in the repo. All other objects should be stored in Google Cloud Storage.
 * Adding line numbers to code could help in debugging.
 * Make sure final product is clean of junk code.
   * Are lines of commented out code needed?
