@@ -16,10 +16,12 @@ GitHub: jsarro13
 * Make sure final product is clean of junk code.
   * Are lines of commented out code needed?
   * Is every step necessary?
+* When generating dataframes/tables, display a small section of the output so users can see what the data looks like.
+
 
 ## When running a notebook
 * Make sure that all dependencies are installed.
-* Before running any command on cloud services.
+* Before running any command on cloud services:
   * Make sure you have proper dependencies installed.
   * Check object sizes. Running very large objects can be expensive.
   * Double check memory usage of software being run. Memory intensive programs can be expensive to run.
