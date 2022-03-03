@@ -17,7 +17,10 @@ GitHub: jsarro13
   * Are lines of commented out code needed?
   * Is every step necessary?
 * When generating dataframes/tables, display a small section of the output so users can see what the data looks like.
-
+* Each code cell should perform a single operation. Split compound operations into separate cells. This will make your notebook
+  * More flexible to use
+  * Easier to debug
+  * More robust
 
 ## When running a notebook
 * Make sure that all dependencies are installed.
@@ -26,7 +29,7 @@ GitHub: jsarro13
   * Check object sizes. Running very large objects can be expensive.
   * Double check memory usage of software being run. Memory intensive programs can be expensive to run.
 * Familiarize yourself with Jupyter Notebooks.
-  * If you do not have Jupyterlab installed on you local machine, you can install using: <br> pip install jupyterlab
+  * If you do not have Jupyterlab installed on you local machine, you can install using: pip install jupyterlab
   * Jupyterlab can be opened from the GitHub repo directory using: <br> jupyter-lab
 * Familiarize yourself with GitHub.
   * You may need to clone a repo to your local machine. Once cloned, the notebook will need to be run from the repo directory so that objects contained within can be accessed. Repos can be cloned using: <br> git clone repo_address
