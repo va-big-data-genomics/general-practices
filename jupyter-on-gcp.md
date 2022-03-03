@@ -31,9 +31,11 @@ GitHub: jsarro13
   * Double check memory usage of software being run. Memory intensive programs can be expensive to run.
 * Familiarize yourself with Jupyter Notebooks.
   * If you do not have Jupyterlab installed on you local machine, you can install using: pip install jupyterlab
-  * Jupyterlab can be opened from the GitHub repo directory using: <br> jupyter-lab
+  * Jupyterlab can be opened from the GitHub repo directory using:
+    jupyter-lab
 * Familiarize yourself with GitHub.
-  * You may need to clone a repo to your local machine. Once cloned, the notebook will need to be run from the repo directory so that objects contained within can be accessed. Repos can be cloned using: <br> git clone repo_address
+  * You may need to clone a repo to your local machine. Once cloned, the notebook will need to be run from the repo directory so that objects contained within can be accessed. Repos can be cloned using:
+    git clone repo_address
 * Familiarize yourself with the Google Cloud environment.
   * If you do not have CloudSDK installed on your local machine, you can do so by clicking [this link](https://cloud.google.com/sdk/docs/install).
-  * The Google Cloud [console](console.cloud.google.com) is a great place to begin working in the cloud environment. "
+  * The Google Cloud [console](console.cloud.google.com) is a great place to begin working in the cloud environment.
