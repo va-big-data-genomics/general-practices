@@ -21,6 +21,7 @@ GitHub: jsarro13
   * More flexible to use
   * Easier to debug
   * More robust
+* As much as possible, add coherence checks, such as summary metrics, to code cells that involve data transformations so that users can check, as they go, that their results look good.
 
 ## When running a notebook
 * Make sure that all dependencies are installed.
