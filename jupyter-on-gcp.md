@@ -1,4 +1,6 @@
 # Using Jupyter Notebooks to Implement Methods on Google Cloud
+Owner: Joseph Sarro
+GitHub: jsarro13
 
 ## When creating a notebook
 * Begin with a detailed summary of what the workflow does. What is the purpose of this workflow? What are the output files? What will these files be used for? How were the input files generated?
