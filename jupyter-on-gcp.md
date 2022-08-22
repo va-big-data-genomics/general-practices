@@ -92,7 +92,7 @@ Hail is an open-source, general-purpose, Python-based data analysis tool with ad
 
 ### From the terminal
 * Following these instructions to link your GitHub account to the notebook and clone your repository: 
-  https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github.
+  https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github. Make sure to use the **SSH** address of your repository.
 * Install Java (required for Hail)
 Run the following commands in the terminal. From this DigitalOcean guide:  
 https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-debian-10
