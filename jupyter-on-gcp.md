@@ -111,8 +111,7 @@ You need to do this for the next step.
     gcloud auth application-default login
     ```
 * Install the Google Cloud Storage connector
-The connector will allow Hail to read objects directly from Google Cloud Storage. From the Hail docs  
-(https://hail.is/docs/0.2/cloud/google_cloud.html#).
+The connector will allow Hail to read objects directly from Google Cloud Storage. From the Hail docs (https://hail.is/docs/0.2/cloud/google_cloud.html#):
     ```
     curl -sSL https://broad.io/install-gcs-connector | python3
     ```
