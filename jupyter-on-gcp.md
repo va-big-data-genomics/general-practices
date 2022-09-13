@@ -86,7 +86,7 @@ Authors: Joseph Sarro, Paul Billing-Ross
 ## Run Hail on a Vertex AI Workbench notebook
 ### Create a notebook
 Hail is an open-source, general-purpose, Python-based data analysis tool with additional data types and methods for working with genomic data (https://hail.is/).
-* Launch a Vertex AI notebook from the the Google Cloud Platform web console with with the Python3 environment.
+* Launch a Vertex AI notebook from the the Google Cloud Platform web console with with the Python3 environment. I also recommend using the **Ubuntu** operating system since I have experienced permissions issues running commands as an administrator (user "root").
 * Click "OPEN JUPYTERLAB" in the console.
 * Once Jupyter Lab opens in your browser, open a terminal within Jupyter Lab.
 
