@@ -95,7 +95,7 @@ Hail is an open-source, general-purpose, Python-based data analysis tool with ad
   https://cloud.google.com/vertex-ai/docs/workbench/user-managed/save-to-github. Make sure to use the **SSH** address of your repository.
 * Install Java (required for Hail)
 Run the following commands in the terminal. From this DigitalOcean guide:  
-https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-debian-10
+https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-on-debian-10. And make sure that either Java 8 or 11 have been installed, as these are the only version supported by Hail.
     ```
     sudo apt update  
     sudo apt install default-jre  
