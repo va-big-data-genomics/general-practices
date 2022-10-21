@@ -8,6 +8,11 @@ marp: true
 ### October 21, 2022
 ### VA Big Data Genomics Group
 
+A Markdown presentation made using [Marp](https://marp.app/)
+
+Source: 
+https://github.com/StanfordBioinformatics/effective-practices/blob/main/hail-on-gcp.md
+
 ---
 # Running Hail on Dataproc
 
@@ -144,7 +149,7 @@ GROUP BY task
 ---
 # Use the cloud console to track cluster status
 * Do **NOT** trust Dataproc to correctly manage your cluster
-  * When you enable you also enable **burning money**
+  * When you enable you also enable **burning money** :fire:
   * Regularly check that your cluster is scaling up **and down** as expected
 * Stop your cluster when you aren't using it
 
