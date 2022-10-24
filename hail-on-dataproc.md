@@ -83,7 +83,7 @@ workerConfig:
   minInstances: 2
   weight: 1
 secondaryWorkerConfig:
-  maxInstances: 1000
+  maxInstances: 50
   weight: 1
 basicAlgorithm:
   cooldownPeriod: 2m
