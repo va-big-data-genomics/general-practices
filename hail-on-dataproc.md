@@ -144,7 +144,7 @@ GROUP BY task
 ---
 # Example query to track Dataproc costs in BigQuery (2)
 
-![image](dataproc-bigquery-billing-result.png)
+![image](images/dataproc-bigquery-billing-result.png)
 
 ---
 # Use the cloud console to track cluster status
