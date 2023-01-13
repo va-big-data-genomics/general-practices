@@ -3,7 +3,6 @@
 The VA Big Data Genomics group meets every week, via Zoom. The meeting is approximately one hour long with a five minute break in the middle. The first half of the meeting is for sharing and discussing relevant updates and is open to all members and collaborators. The second half is reserved for internal group discussion and is limited to core and auxiliary members.
 
 ## Meeting Structure
-Because we are a fully remote team, this is the only opportunity we have discussions as a group.
 
 ### Open discussion
 Beginning in 2023, we will try a new meeting structure. Instead of having one group member give a typical presentation in the first half of the meeting, they will provide a written summary of the work they've been doing, with links to relevant resources such as Jupyter notebooks, code commits, markdown documents, pull requests, or issues. The first 15 minutes or so of the meeting, everyone will take time to review report and think about ideas or questions they'd like to discuss in more detail. The next 15 minutes will be dedicated to discussion of the report.
