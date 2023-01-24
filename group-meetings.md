@@ -5,7 +5,7 @@ The VA Big Data Genomics group meets every week, via Zoom. The meeting is approx
 ## Meeting Structure
 
 ### Open discussion
-Beginning in 2023, we will try a new meeting structure. Instead of having one group member give a typical presentation in the first half of the meeting, they will provide a written summary of the work they've been doing, with links to relevant resources such as Jupyter notebooks, code commits, markdown documents, pull requests, or issues. The first 15 minutes or so of the meeting, everyone will take time to review report and think about ideas or questions they'd like to discuss in more detail. The next 15 minutes will be dedicated to discussion of the report.
+Beginning in 2023, we will try a new meeting structure. Instead of having one group member give a typical presentation in the first half of the meeting, they will provide a [written summary](https://github.com/va-big-data-genomics/general-practices/blob/main/create-blog-post.md) of the work they've been doing, with links to relevant resources such as Jupyter notebooks, code commits, markdown documents, pull requests, or issues. The first 15 minutes or so of the meeting, everyone will take time to review report and think about ideas or questions they'd like to discuss in more detail. The next 15 minutes will be dedicated to discussion of the report.
 
 ### Internal discussion
 The second half of the meeting is less structured and provides an opportunity for group members to discuss housekeeping issues, concerns, desires, problem solving strategies, gossip, and weird dreams.
