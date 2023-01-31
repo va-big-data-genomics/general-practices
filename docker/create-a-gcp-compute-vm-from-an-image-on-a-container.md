@@ -1,5 +1,9 @@
-Create a GCP Compute VM from the image from the cloud console (under the section **Container**. The **Container Image** key should have a value like:
-
-```
-gcr.io/gbsc-gcp-project-mvp-dev/telseq@sha256:ee47256f94a0b1eb3ebc7174f98ee96528a87a1ce2a39eb633e2dc23d256f1bb
-```
+To create a GCP Compute VM from an image hosted on [Google Container Registry](https://cloud.google.com/container-registry/):
+1. Go to the [Cloud Console](https://console.cloud.google.com)
+2. Go to [Compute Engine](https://console.cloud.google.com/compute) from the navigation menu
+3. Click [Create Instance](https://console.cloud.google.com/compute/instancesAdd?project=gbsc-gcp-project-mvp-dev)
+   and provide a name for the instance.
+4. Under the **Container** section, click **DEPLOY CONTAINER** and provide the
+   URL to the image on Google Container Registry (should look like
+   `gcr.io/my-cloud-project/telseq`). Click **Select** to save.
+5. Change whatever other settings you need for your VM and click **Create**.

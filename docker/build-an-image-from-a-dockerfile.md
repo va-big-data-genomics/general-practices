@@ -1,7 +1,7 @@
 Execute the command `docker build .` in the directory containing the `Dockerfile`:
 
 ```
-tmp/telomere-test-1-dlc % docker build .         
+% docker build .         
 [+] Building 97.0s (9/9) FINISHED                                                                                           
  => [internal] load build definition from Dockerfile                                                                   0.0s
  => => transferring dockerfile: 1.19kB                                                                                 0.0s
