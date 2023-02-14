@@ -185,3 +185,5 @@ gcloud dataproc clusters create pbilling-dataproc-hail-giab \
     --labels=creator=pbilling,environment=dev,task=hail-giab \
     --autoscaling-policy=hail-giab-autoscaling-policy
 ```
+
+Also, make sure to enclose the `--properties` and `--metadata` fields in double quotes or you may get a shell parsing error. For example: ```zsh: parse error near `|'```.
