@@ -35,6 +35,54 @@ Authors: Joseph Sarro, Paul Billing-Ross
  > Predicted runtime: 45 minutes  
  > Predicted cost: $50  
 
+### Installing Python packages
+
+These guidelines are informed by Jake VanderPlas's guide to Jupyter Python installs:
+[https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter).
+
+Recommended syntax example:
+
+```
+!{sys.executable} -m pip install python-library
+```
+
+There are two main elements to take note of here.
+
+1. Use the `sys` module to perform installs using `pip`. This will ensure that you are using the `pip` version associated with the active Python kernel.
+
+2. Use the `python -m pip` syntax to call `pip`. This will make sure your `pip` matches your Python version.
+
+### Loading secrets
+
+We want to create Jupyter notebooks that can become public resources, shared widely. We also want to organize project metadata in a way that makes in easy for internal team members to reproduce or replicate existing analyses. However, we don't want to share project specific details that could compromise the security of our environment of private information.
+ 
+**Do not hardcode private paths into notebooks.**
+
+There are (2) recommended practice for loading project specific information into a notebook.
+
+1. Use <ins>[Secret Manager](https://cloud.google.com/secret-manager)</ins> to store the information as a secret, associated with the Google Cloud Project.
+2. Store the information in a configuration file (YAML or JSON) in a storage bucket and create a secret with the path to that object. The most optimal time to use this approach is probably when there is a single bucket dedicated to the initiative described in your notebook. For instance: if your notebook describes an analysis for releasing data, and each data release has its own bucket with a configuration file.
+
+A vulnerability of approach #2 is that the mapping from the secret to the configuration object can be broken if the object is moved or renamed. An advantage is that the configuraiton object is easier to interact with and find as it can be stored closer to the data.
+
+An example of interacting with Secret Manager in Python
+```
+# Install Secret Manager library
+import sys
+!{sys.executable} -m pip install --upgrade google-cloud-secret-manager
+
+from google.cloud import secretmanager
+
+# Create the Secret Manager client.
+client = secretmanager.SecretManagerServiceClient()
+
+# Access the YAML doc stored as a secret.
+response = client.access_secret_version(request={"name": "projects/123456789123/secrets/secret-name/versions/1"})
+
+# Load YAML doc into a dictionary
+config_yaml_doc = yaml.safe_load(response.payload.data.decode('utf-8'))
+```
+
 ### Notebook body
 * Begin with a detailed summary of what the workflow does. What is the purpose of this workflow? What are the output objects? What will these objects be used for? How were the input objects generated?
 * Describe any dependencies needed. Descriptions of novel tools and possible links should also be included. For example, Trellis may not be a tool a user is familiar with and background information could be useful.
