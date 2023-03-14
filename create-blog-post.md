@@ -13,7 +13,7 @@ git clone git@github.com:va-big-data-genomics/va-big-data-genomics.github.io.git
 If you want to deploy a local version of the blog to see what it looks like, before deploying to production (recommended), follow the Jekyll [docs](https://jekyllrb.com/docs/) to install it on your local machine. Note: I found this process to be [kind of hairy](https://github.com/va-big-data-genomics/va-big-data-genomics.github.io/issues?q=is%3Aissue+is%3Aclosed).
 
 ## Create your post markdown file
-To create a blog post, add a  markdown file to the `_posts` director. Post file names should include the date and post name according to the convention `yyyy-mm-dd-your-post-name.markdown`. For example: `2023-01-14-my-first-post.markdown`.
+To create a blog post, add a  markdown file to the `_posts` director. Post file names should include the date and post name according to the convention `yyyy-mm-dd-your-post-name.markdown`. For example: `_posts/2023-01-14-my-first-post.markdown`.
 
 ## Add a header to your post
 Add a header to your file with relevant metadata including title, date, and author. Format the information in a block like the following and put it at the top of your markdown file.
